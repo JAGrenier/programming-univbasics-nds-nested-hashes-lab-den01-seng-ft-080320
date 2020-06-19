@@ -1,5 +1,5 @@
 # Examples inspired by David Foster Wallace's # (2/21/1962 to 9/12/2008) _Infinite Jest_
-#require 'pry'
+
 DON_G = { name:  "Don Gately", occupation: "Live-in Staff" }
 JOELLE_VD = { name:  "Joelle van Dyne", occupation: "Radio Personality" }
 PAT_M =  { name:  "Pat Monteseian", occupation: "Staff" }
@@ -39,8 +39,5 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   aoh[row][key] = new_value
   aoh
-    #literal_aoh[1][:occupation]="(PGOAT)"
 end
-#binding.pry
-#result = aoh_update(local_copy_of_aoh, 1, :name, "Joelle van Dyne (PGOAT)")
-#expect(result[1][:name]).to eq("Joelle van Dyne (PGOAT)")
+
